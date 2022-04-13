@@ -18,7 +18,7 @@ public class UserRegistration {
         String emailPattern = "^[a-z]{3,}([._+-][a-z0-9]{3,})*@[a-z0-9]{2,}.[a-z]{2,3}([.+_-][a-z]{2,3})*$";
         return validatePattern(emailPattern,TestEmailId);
     }
-    
+   
     public boolean validatePassword(String TestPassword){
         String passwordPattern= "(?=.{8,})(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]*[@#$%_!^&*][0-9a-zA-Z]*";
         return validatePattern(passwordPattern,TestPassword);
