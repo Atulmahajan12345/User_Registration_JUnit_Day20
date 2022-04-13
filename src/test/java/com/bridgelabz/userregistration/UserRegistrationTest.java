@@ -1,8 +1,8 @@
 package com.bridgelabz.userregistration;
-
 import org.junit.Assert;
 import org.junit.Test;
 
+;
 
 public class UserRegistrationTest {
     public static String expected;
@@ -29,7 +29,7 @@ public class UserRegistrationTest {
         Assert.assertEquals(true, email);
     }
 
-    
+   
 
     @Test
     public void givenPasswordMinimum1NumericUpperCaseLowerCaseAndExact1SpecialCharacterValueAndMinimum8Characters(){
@@ -40,7 +40,7 @@ public class UserRegistrationTest {
     @Test
     public void givenSadMood_ShouldReturnSad(){
 
-    	actual =test.analyzeMood("I am In SAD mood"); // ="sad"
+         actual =test.analyzeMood("I am In SAD mood"); // ="sad"
          expected ="sad";
         Assert.assertEquals(expected,actual);
     }
